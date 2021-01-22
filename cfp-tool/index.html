@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/cfptool/favicon.ico"><title>cfp-rate-tool-web</title><link href="/cfptool/css/app.493f2ee1.css" rel="preload" as="style"><link href="/cfptool/css/chunk-vendors.2c2d7c61.css" rel="preload" as="style"><link href="/cfptool/js/app.75a5245e.js" rel="preload" as="script"><link href="/cfptool/js/chunk-vendors.86dd1601.js" rel="preload" as="script"><link href="/cfptool/css/chunk-vendors.2c2d7c61.css" rel="stylesheet"><link href="/cfptool/css/app.493f2ee1.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but cfp-rate-tool-web doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="/cfptool/js/chunk-vendors.86dd1601.js"></script><script src="/cfptool/js/app.75a5245e.js"></script></body><script>(function (win, doc) {
+      var win = window;
+      var doc = win.document;
+      var docEl = doc.documentElement,
+        resizeEvt = "orientationchange" in win ? "orientationchange" : "resize",
+        recalc = function () {
+          var clientwidth = docEl.clientWidth;
+          if (!clientwidth) { return false; }
+          var fz = 100 * (clientwidth / 375) + "px"
+          docEl.style.fontSize = fz
+          var realfz = win.getComputedStyle(docEl).fontSize
+          if (fz !== realfz) {
+            docEl.style.fontSize = fz.replace("px", '') * (fz.replace("px", '') / realfz.replace("px", '')) + "px"
+          }
+        };
+      if (!doc.addEventListener) { return false; }
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener("DOMContentLoaded", recalc, false);
+    })(window, document)</script></html>
