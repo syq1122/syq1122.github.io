@@ -4,4 +4,4 @@ syq1122.github.io
 syq1122.github.io
 
 # 访问示例：
-https://syq1122.github.io/静态文件
+https://syq1122.github.io/README.md
