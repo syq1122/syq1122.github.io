@@ -1,0 +1,17 @@
+{
+    "code": 200,
+    "data": {
+        "rgbup": [
+            0,
+            0,
+            0
+        ],
+        "rgbbo": [
+            245,
+            245,
+            245
+        ],
+        "profile": "https://www.bdctpsp.com"
+    },
+    "msg": "查询成功"
+}
